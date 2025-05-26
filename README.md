@@ -64,3 +64,17 @@ Backend validates the name field to prevent empty entries.
 Frontend performs the same validation before sending data.
 MongoDB stores items with name and description fields.
 IDs are handled using MongoDB's ObjectId and converted to string for JSON.
+
+Research - Sources
+Throughout the development of this project, all technical information, code examples, and troubleshooting guidance were provided via AI assistance (ChatGPT). The AI sourced and distilled content from official documentation and trusted online resources to support the implementation and resolve challenges.
+
+Key underlying sources referenced by the AI include:
+
+MongoDB Shell Documentation — for database interactions.
+https://www.mongodb.com/docs/mongodb-shell/
+Flask Official Documentation — for backend API development.
+https://flask.palletsprojects.com/
+JavaScript Fetch API (MDN Web Docs) — for frontend asynchronous calls.
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+
+I also used AI tools (ChatGPT) to help generate, debug, and optimise code snippets, especially for integrating MongoDB with Flask, and frontend JavaScript for dynamic updates.
